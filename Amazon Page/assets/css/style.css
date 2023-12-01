@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  background-color: #133144;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  height: 2em;
+  margin-right: 0.75em;
+}
+
+.banner2 {
+  background-color: #1c3547d5;
+  color: #fff;
+  text-align: center;
+  padding: 0.1em;
+}
+
+.horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.horizontal-list li {
+  margin: 0 0.5em;
+}
+
+.horizontal-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.bannerorange {
+  background-color: rgb(246, 117, 26);
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+.bannerorange h1 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sfondonatalizio {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  padding: 1.5em;
+  background-color: #fff;
+}
+
+.image-container {
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 0;
+}
+
+.image-container img {
+  width: 22.5em;
+  max-width: 16.5em;
+  height: 11.5em;
+  border-radius: 1.25em;
+  padding: 0.3125em;
+  margin: 0.1875em;
+  display: inline-block;
+}
+
+.image-container a {
+  display: inline-block;
+  margin-bottom: 0.625em;
+  color: #0066cc;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container a:hover {
+  color: #004080;
+}
+
+.fotogaming,
+.fotomarshall {
+  text-align: center;
+}
+
+.fotogaming img,
+.fotomarshall img {
+  width: auto;
+  max-height: 21.5em;
+  border-radius: 1.25em;
+}
+
+.fotogaming p,
+.fotomarshall p {
+  margin: 0.625em 0;
+}
+
+.fotogaming a,
+.fotomarshall a {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fotogaming a:hover,
+.fotomarshall a:hover {
+  color: #004080;
+}
+
+.bannerfinale {
+  background-color: #1c3547d5;
+  color: white;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.bannerfinale h1 {
+  font-size: 0.625em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.fotoamazonfinale {
+  background-color: #133144;
+  color: white;
+  text-align: center;
+  padding: 1.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.logo {
+  width: auto;
+  height: 2.5em;
+  margin-right: 0.75em;
+}
